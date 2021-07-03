@@ -1,0 +1,27 @@
+import java.math.BigInteger;
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		//System.out.println("Hello World");
+	    
+	    Scanner sc = new Scanner(System.in);
+	    String n;
+	    BigInteger a = new BigInteger("0");
+	    
+	    while(sc.hasNext()){
+	    
+	    n = sc.next();
+	   // System.out.println(n);
+	    if(n.equals("0"))
+	        break;
+	    
+	    BigInteger b = new BigInteger(n);
+	    
+	        a = a.add(b);
+	    
+	       // System.out.println(a);
+	      }
+	        System.out.println(a);
+	 }
+}
